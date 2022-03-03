@@ -19,8 +19,8 @@ const numbersArray = [44,57,68,89,2,18,9];
 
 for (let i = 0; i < numbersArray.length; i++){
     if (isEven(numbersArray[i])){
-        document.getElementById("verde").innerHTML+= " " + numbersArray[i];
+        document.getElementById("rosso").innerHTML+= " " + numbersArray[i];
     }else {
-        document.getElementById("rosso").innerHTML+=" " + numbersArray[i];
+        document.getElementById("verde").innerHTML+=" " + numbersArray[i];
     }
 }
